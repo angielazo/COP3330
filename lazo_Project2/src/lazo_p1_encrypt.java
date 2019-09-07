@@ -55,15 +55,10 @@ public class lazo_p1_encrypt {
 	// Recalculating fourth digit to secure digit
 	secureFourth = (fourthDigit + 7) % 10;
 	
+	// Printing encrypted code
 	newCode = ("" + secureThird + secureFourth + secureFirst + secureSecond);
 	System.out.print("Encrypted code: " + newCode);
 	
-	/*
-	System.out.println(firstDigit);
-	
-	System.out.print(secureFirst);
-	*/
-	//java.util.Scanner.close();
 	
 	}
 
