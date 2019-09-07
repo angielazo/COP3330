@@ -1,3 +1,5 @@
+package lazo_Project2;
+
 import java.util.Scanner;
 
 public class lazo_p1_decrypt {
